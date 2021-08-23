@@ -1,0 +1,41 @@
+.team-standings-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(90, 90, 90);
+}
+
+.inner-team-container {
+  width: 95%;
+  max-width: 48rem;
+  font-size: .85rem;
+}
+
+.team-standings-title  {
+  margin-top: 2rem;
+}
+
+.team-standings-header {
+  background-color: rgba(236, 50, 21, 0.692);
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 29, 0.22);
+  border-radius: 3px;
+  margin-top: 1rem;
+  padding: .2rem;
+}
+
+.team-standing-row {
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 29, 0.22);
+  border-radius: 3px;
+  margin-top: .4rem;
+  padding: .2rem;
+}
+
+.team-link {
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+
+.team-logo {
+  max-width: 3rem;
+  max-height: 1.3rem;
+}

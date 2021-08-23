@@ -1,0 +1,172 @@
+.races-main-container {
+  margin-top: 2rem;
+  max-width: 40rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(90, 90, 90);
+  font-size: .75rem;
+}
+
+.tab {
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 29, 0.22);
+  border-radius: 3px;
+  display: inline-block;
+  padding: .3rem;
+  margin: 0 .3rem;
+}
+
+.card {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+
+/* .card::-webkit-scrollbar {
+  display:none;
+} */
+
+.card::-webkit-scrollbar {
+  width: 0%;
+  height: .4rem;
+}
+
+/* Track */
+.card::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  
+}
+ 
+/* Handle */
+.card::-webkit-scrollbar-thumb {
+  background-color: rgba(236, 50, 21, 0.363); 
+  border-radius: 4px;
+  
+}
+
+/* Handle on hover */
+.card::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+  height: 5px;
+}
+
+
+
+.panel-container {
+  width: 100%;  
+}
+
+.race-details-box {
+  display: flex;
+  gap: .4rem;
+}
+
+.race-details {
+  background-color: rgba(236, 50, 21, 0.363);
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 29, 0.22);
+  border-radius: 3px;
+  margin: .2rem 0;
+  padding: .2rem;
+  font-size: .7rem;
+}
+
+.race-details-box a {
+  color: inherit;
+  text-decoration: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.race-result-row {
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 29, 0.22);
+  border-radius: 3px;
+  margin-top: .4rem;
+}
+
+.race-link {
+  color: inherit;
+  text-decoration: inherit;
+  
+}
+
+.race-name {
+  font-size: .8rem;
+  min-width: 3.8rem;
+  
+}
+
+
+.race-pilot-name-box {
+  display: flex;
+}
+
+.pilot-name {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0;
+}
+
+.race-info {
+  font-size: 0.85rem;
+  
+}
+
+.race-position-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.race-pilots-position {
+  text-align: center;
+}
+
+.absent-pilots-position {
+  font-size: 0.6rem;
+  align-self: center;
+}
+
+.align-items {
+  display: flex;
+  align-items: center;
+  
+}
+
+.fast-lap-icon {
+  margin-left: 0.7rem;
+  padding: 0;
+  color: rgb(134, 60, 60);
+  font-size: 0.8rem;
+}
+
+.team-box {
+  padding: 0;
+}
+
+.team-logo-img {
+  max-width: 3.5rem;
+  max-height: 1.5rem;
+}
+
+.img-box {
+  width: 50%;
+ text-align: center;
+}
+
+.fast-lap-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}

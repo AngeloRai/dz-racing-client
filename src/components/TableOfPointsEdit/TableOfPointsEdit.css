@@ -1,0 +1,17 @@
+.edit-box {
+  width: 100%;
+}
+
+.form-position {
+  
+}
+
+.save-update-button-text {
+  position: absolute;
+  left: 70%;
+  font-size: .6rem;
+  background-color: rgb(253, 253, 253);
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 29, 0.22);
+  padding: .3rem;
+}

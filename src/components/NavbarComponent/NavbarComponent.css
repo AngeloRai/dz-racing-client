@@ -1,0 +1,14 @@
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    padding: 0;
+    transform: rotate(0deg);
+    transition: all 0.8s ease-in;
+  }
+
+  .logo:hover {
+    border: solid 2px rgba(236, 50, 21, 0.692);
+    transform: rotate(360deg);
+    transition: all 0.4s ease-in-out;
+  }
+

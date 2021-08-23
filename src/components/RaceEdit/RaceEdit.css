@@ -1,0 +1,51 @@
+.column {
+  padding: 2px;
+  min-width: 220px;
+  min-height: 500px;
+  border-radius: 3px;
+  
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 29, 0.22);
+}
+
+.title {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    "AppleGothic", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #131313;
+  letter-spacing: 0.15em;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 7px 12px;
+}
+
+.pilot {
+  padding: 6px;
+  margin: 0 0 3px 0;
+  min-height: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 29, 0.22);
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.outer-div {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+button {
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 29, 0.22);
+}

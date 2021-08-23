@@ -1,0 +1,58 @@
+.sort {
+
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    
+    margin: 0;
+}
+
+.sort {
+  width: 100%;
+  font-size: .8rem;
+  background-color: rgba(236, 50, 21, 0.692);
+}
+
+
+.main-pilots-container {
+  border-radius: 3px;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 29, 0.22);
+  margin-top: 1rem;
+  padding: .2rem 0;
+}
+
+.team-title {
+  margin-left: .9rem;
+}
+
+.pilots-container {
+  margin: .3rem 0;
+  font-size: .9rem;
+  
+}
+
+.edit-button {
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 29, 0.22);
+  border-radius: 3px;
+  width: 3.8rem;
+  height: 1.8rem;
+  font-size: .9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.team-logo-img-box {
+  
+}
+
+.team-logo-img-box img{
+  align-items: center;
+  padding: .2rem;
+  max-width: 5rem;
+  height: 1.8rem;
+  
+}
+
